@@ -4,10 +4,10 @@
         <attribute name="name" value="T03"/>
         <attribute name="authors" value="Lenovo"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-02 04:53:25 PM"/>
+        <attribute name="saved" value="2024-10-02 09:17:23 PM"/>
         <attribute name="created" value="TGVub3ZvO0xBUFRPUC1RUTlFUzhTUjsyMDI0LTEwLTAyOzA0OjQxOjQ0IFBNOzMwMDA="/>
         <attribute name="edited" value="TGVub3ZvO0xBUFRPUC1RUTlFUzhTUjsyMDI0LTEwLTAyOzA0OjQ1OjU2IFBNOzY7TGVub3ZvO0xBUFRPUC1RUTlFUzhTUjsyMDI0LTEwLTAyOzAzOjMwOjU0IFBNO1QwMyBHQSBKQURJLmZwcmc7NzM3Ng=="/>
-        <attribute name="edited" value="TGVub3ZvO0xBUFRPUC1RUTlFUzhTUjsyMDI0LTEwLTAyOzA0OjUzOjI1IFBNOzE7MzExMA=="/>
+        <attribute name="edited" value="TGVub3ZvO0xBUFRPUC1RUTlFUzhTUjsyMDI0LTEwLTAyOzA5OjE3OjIzIFBNOzI7MzExNA=="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -15,8 +15,8 @@
             <declare name="ISBN, judulbuku, penulis, kategori, formatbukuelektronik, penerbit, tub, kategoridiskon" type="String" array="False" size=""/>
             <declare name="tahunterbit, stokbuku" type="Integer" array="False" size=""/>
             <declare name="hargapembelian, minimummargin, rating, diskon" type="Real" array="False" size=""/>
-            <input variable="ISBN"/>
             <while expression="ISBN!=&quot;---&quot;">
+                <input variable="ISBN"/>
                 <input variable="judulbuku"/>
                 <input variable="penulis"/>
                 <input variable="tahunterbit"/>
@@ -84,8 +84,8 @@
                         <assign variable="tub" expression="&quot;---&quot;"/>
                     </else>
                 </if>
-                <output expression="ISBN&amp;&quot;|&quot;&amp;judulbuku&amp;&quot;|&quot;&amp;penulis&amp;&quot;|&quot;&amp;tahunterbit&amp;&quot;|&quot;&amp;penerbit&amp;&quot;|&quot;&amp;formatbukuelektronik&amp;&quot;|&quot;&amp;hargapembelian&amp;&quot;|&quot;&amp;minimummargin&amp;&quot;|&quot;&amp;stokbuku&amp;&quot;|&quot;&amp;rating&amp;&quot;|&quot;&amp;kategori&amp;&quot;|&quot;&amp;tub" newline="True"/>
             </while>
+            <output expression="ISBN&amp;&quot;|&quot;&amp;judulbuku&amp;&quot;|&quot;&amp;penulis&amp;&quot;|&quot;&amp;tahunterbit&amp;&quot;|&quot;&amp;penerbit&amp;&quot;|&quot;&amp;formatbukuelektronik&amp;&quot;|&quot;&amp;hargapembelian&amp;&quot;|&quot;&amp;minimummargin&amp;&quot;|&quot;&amp;stokbuku&amp;&quot;|&quot;&amp;rating&amp;&quot;|&quot;&amp;kategori&amp;&quot;|&quot;&amp;tub" newline="True"/>
         </body>
     </function>
 </flowgorithm>
