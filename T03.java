@@ -54,7 +54,7 @@ public class T03 {
                         }
                     }
                 }
-                if (diskon > 0.4 && rating >= 4.7) {
+                if (kategoridiskon.equals("Once in a lifetime") && kategori.equals("Best pick")) {
                     tub = "The ultimate best";
                 } else {
                     tub = "---";
